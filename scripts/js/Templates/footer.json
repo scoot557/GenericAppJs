@@ -1,0 +1,13 @@
+[
+	{
+		"footerItems": [
+			{
+				"name":"Phone",
+				"value":"555-555-5555"
+			},
+			{	"name":"Email",
+				"value":"adam@adamspainting.com"
+			}
+		]
+	}
+]

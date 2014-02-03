@@ -1,0 +1,3 @@
+<div class='generic-app-popup'>
+	{{content}}
+</div>

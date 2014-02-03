@@ -1,0 +1,14 @@
+App.Views.ContentView = App.Views.BaseView.extend({
+	tagName: "div",
+	className: "content",
+	events: {},
+	templateSrc: '/scripts/js/Templates/default-content.hbs',
+	initialize: function(){
+		
+		this.fetchTemplates();
+		
+		
+		
+	
+	}
+});

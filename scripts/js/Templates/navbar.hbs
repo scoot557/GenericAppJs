@@ -1,0 +1,29 @@
+
+<h1 class='header-title'>
+	{{headerOptions.title}}
+</h1>
+<div class='header-links'>
+	<ul class='header-links-list'>
+		{{#each headerOptions.headerLinks}}
+			<li class='header-links-item'>
+				<a href='{{route}}'>{{title}}</a>
+			</li>
+		{{/each}}
+	</ul>
+</div>
+<nav>
+	<ul class='navbar-list'>
+		{{#each headerOptions.navBarOptions.mainNavOptions}}
+			<li class='navbar-list-item'>
+				<a href="{{route}}">{{title}}</a>
+				<ul class='navbar-sublist'>
+					{{#each subNavOptions}}
+						<li class='navbar-sublist-item'>
+							<a href="{{route}}">{{title}}</a>
+						</li>
+					{{/each}}
+				</ul>
+			</li>
+		{{/each}}
+	</ul>
+</nav>
